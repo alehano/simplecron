@@ -1,4 +1,5 @@
-# Simple Cron. Every job runs in goroutine.
+# Simple Cron 
+Every job runs in goroutine.
 
 
  Patterns:
