@@ -1,39 +1,30 @@
-
-Simple Cron. Every job runs in goroutine.
+# Simple Cron. Every job runs in goroutine.
 
 
  Patterns:
- 12 - at 12
- 1,2,3 - at 1 or 2 or 3
- * - every hour/min
- */15 - every 15 hours/min
+ ```
+"12" - at 12
+"1,2,3" - at 1 or 2 or 3
+"*" - every hour/min
+"*/15" - every 15 hours/min
+```
 
 
 
 WEEKDAYS:
+```
 Sunday = 0
 Monday = 1
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
+...
+```
 
 
 MONTHS
+```
 January = 0
 February = 1
-March
-April
-May
-June
-July
-August
-September
-October
-November
-December
-
+...
+```
 
 Example:
 
